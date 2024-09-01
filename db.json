@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "tes@gmail.com",
+      "username": "johndoe",
+      "phoneNumber": "081234567890",
+      "password": "password"
+    },
+    {
+      "id": "ed7d",
+      "email": "halo@gmail.com",
+      "username": "halo",
+      "phoneNumber": "081221223112",
+      "password": "password"
+    }
+  ],
+  "phoneLogins": [
+    {
+      "id": "1",
+      "phoneNumber": "081234567890",
+      "otp": "123456"
+    },
+    {
+      "id": "ed7d",
+      "phoneNumber": "081221223112",
+      "otp": 123456
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Paket Data 10GB",
+      "price": 50000,
+      "description": "10GB kuota untuk semua jaringan. Ideal untuk kebutuhan browsing dan sosial media.",
+      "validity": "30 Hari",
+      "isPromo": true
+    },
+    {
+      "id": "2",
+      "name": "Paket Data 25GB",
+      "price": 120000,
+      "description": "25GB kuota untuk semua jaringan. Cocok untuk streaming video dan gaming online.",
+      "validity": "60 Hari",
+      "isPromo": false
+    },
+    {
+      "id": "3",
+      "name": "Paket Data 50GB",
+      "price": 200000,
+      "description": "50GB kuota untuk semua jaringan. Pilihan terbaik untuk penggunaan internet intensif.",
+      "validity": "90 Hari",
+      "isPromo": true
+    },
+    {
+      "id": "4",
+      "name": "Paket Data Unlimited",
+      "price": 300000,
+      "description": "Kuota tanpa batas untuk semua jaringan. Nikmati kebebasan internet tanpa batas.",
+      "validity": "30 Hari",
+      "isPromo": false
+    },
+    {
+      "id": "5",
+      "name": "Paket Data Sosial Media 5GB",
+      "price": 30000,
+      "description": "5GB kuota khusus untuk sosial media seperti Instagram, Facebook, dan WhatsApp.",
+      "validity": "30 Hari",
+      "isPromo": true
+    },
+    {
+      "id": "6",
+      "name": "Paket Data Streaming 15GB",
+      "price": 100000,
+      "description": "15GB kuota khusus untuk layanan streaming seperti YouTube dan Netflix.",
+      "validity": "45 Hari",
+      "isPromo": false
+    }
+  ],
+  "purchaseHistory": [
+    {
+      "id": "1",
+      "userId": 1,
+      "packageId": 1,
+      "paymentMethod": "bank_transfer",
+      "purchaseDate": 1725166050112
+    },
+    {
+      "id": "4c97",
+      "userId": 1,
+      "packageId": "2",
+      "paymentMethod": "bank_transfer",
+      "purchaseDate": 1725166050112
+    },
+    {
+      "id": "ad6f",
+      "userId": 1,
+      "packageId": "3",
+      "paymentMethod": "bank_transfer",
+      "purchaseDate": 1725166050122
+    },
+    {
+      "id": "ccce",
+      "userId": 1,
+      "packageId": "5",
+      "paymentMethod": "e_wallet",
+      "purchaseDate": 1725166050132
+    },
+    {
+      "id": "72b5",
+      "userId": "ed7d",
+      "packageId": "1",
+      "paymentMethod": "credit_card",
+      "purchaseDate": 1725166050142
+    },
+    {
+      "id": "00f1",
+      "userId": "ed7d",
+      "packageId": "2",
+      "paymentMethod": "bank_transfer",
+      "purchaseDate": 1725166050152
+    },
+    {
+      "id": "553f",
+      "userId": "ed7d",
+      "packageId": "5",
+      "paymentMethod": "e_wallet",
+      "purchaseDate": 1725166727169
+    }
+  ]
+}
